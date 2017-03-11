@@ -103,11 +103,16 @@ drwxr-xr-x   3 susmitadatta  staff   102 Mar 10 14:19 editors
 >> * File/dir name
 
 > > `ls -lh`  
+Same as `ls -l` (-h used with the -l option) but shows unit suffixes: 
+Byte, Kilobyte, Megabyte,Gigabyte, Terabyte and Petabyte in order to reduce the number of digits to three or less using base 2 for sizes.
 > > `ls -lah`  
-> > `ls -t`  
+Same as `ls -lh` but also includes directory entries whose names begin with a dot (.).
+> > `ls -t` 
+List dir contents sorted by time modified (most recently modified first) before sorting the operands by lexicographical order.
 > > `ls -Glp
-
----
+An extension ls of `ls -l`. 
+`-G` enables colorized output. Different colors for different types of files and directories. 
+`-p` Write a slash (`/`) after the name of a directory.
 
 ### Q3.  More List Files in Unix  
 
