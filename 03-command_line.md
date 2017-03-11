@@ -43,17 +43,25 @@ $ touch pycode.py
 ```console
 $ rm pycode.py
 ```
->> 7. renaming a file: **pycode.py** to **python_code.py** 
+>> (7) renaming a file: **pycode.py** to **python_code.py** 
 ```console
 $ mv pycode.py python_code.py
 ```
->> 8. listing hidden files
+>> (8) listing hidden files
 ```console
 $ ls -a
 ```
->> 9. copying a file (**pycode.py**) from one directory (**FromThisDir**) to another (**ToThisDir**)
+>> (9) copying a file (**pycode.py**) from one directory (**FromThisDir**) to another (**ToThisDir**)
 ```console
 $ cp FromThisDir/pycode.py ToThisDir/.
+```
+>> (10) check if a package is installed and where
+```console
+$ which emacs
+```
+>> (11) list recently used commands
+```console
+$ history
 ```
 
 
