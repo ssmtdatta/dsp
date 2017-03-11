@@ -82,6 +82,12 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
+`ls` commands | Description
+------------- | -------------
+`ls`          | List directory contents.
+`ls -a`       | List contents including entries with names beginning with a dot (.).
+
+
 > > `ls`  
 > > List directory contents.
 
