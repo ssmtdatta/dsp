@@ -86,9 +86,7 @@ What do the following commands do:
 ------------- | -------------
 `ls`          | List directory contents.
 `ls -a`       | List contents including entries with names beginning with a dot (.).
-`ls -l`       | Shows total number of files in the directory and its sub-directories. 
-                List directory contents (files and sub-directories) in alpha-numeric order with a summary of the contents. 
-                (See Example 1 below)
+`ls -l`       | Shows total number of files in the directory and its sub-directories. List files and sub-directories in alpha-numeric order with a summary of the contents. (See Example 1 below)
 
 
 > > `ls`  
