@@ -133,11 +133,11 @@ What does `xargs` do? Give an example of how to use it.
 > > **xargs** is used to do or remove some operation on long list of file names. It can combine multiple unix commands.
 
 > > **Example:**
+``` console 
+$ find ./ -name "*.md" | xargs  ls 
+```
 
-> > ``` console 
-    $ find ./ -name "*.md" | xargs  ls ```
-
-> > The `find` command finds all the markdown files in the current directory and subdirectories and pass them to the `ls` command to list them. 
+> > The `find` command finds all the markdown files in the current directory and sub-directories and pass them to the `ls` command to list them. 
 
 
 
