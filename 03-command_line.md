@@ -116,13 +116,13 @@ drwxr-xr-x   3 susmitadatta  staff   102 Mar 10 14:19 editors
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > >
-   |Commands      | Description
----|------------- | -------------
-1. | `ls -lrt`    | List contents according to creation and modification date.
-2. | `ls | less`  | List contents in a single column (in apha-numeric order) and displays contents one page at a time (the number of lines that fit the terminal window).
-3. | `ls -F`      | List contents flagging files and directories (with a trailing `/`).
-4. | `ls -R`      | List contents of the directory and the sub-directories.
-5. | `ls -m`      | List contents as a comma-separated list.
+   |Commands         | Description
+---|---------------- | -------------
+1. | `ls -lrt`       | List contents according to creation and modification date.
+2. | `ls | less`     | List contents in a single column (in apha-numeric order) and displays contents one page at a time (the number of lines that fit the terminal window).
+3. | `ls -F`         | List contents flagging files and directories (with a trailing `/`).
+4. | `ls -R`         | List contents of the directory and the sub-directories.
+5. | `ls -m`         | List contents as a comma-separated list.
 
 
 
