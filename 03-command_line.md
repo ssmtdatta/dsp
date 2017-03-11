@@ -133,9 +133,22 @@ drwxr-xr-x  6 susmitadatta  staff   204 Mar 10 14:19 pandas/
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls -lrt`
+List contents according to creation and modification date.
 
----
+> > `ls -F`
+List contents flagging files and directories (with a trailing `/`).
+
+> > `ls | less`
+List contents in a single column (in apha-numeric order) and displays contents one page at a time (the number of lines that fit the terminal window).
+
+> > `ls -R`
+List contents of the directory and the sub-directories.
+
+> > `ls -m` 
+List contents as a comma-separated list.
+
+
 
 ### Q4.  Xargs   
 
