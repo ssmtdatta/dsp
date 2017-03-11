@@ -94,16 +94,7 @@ Commands | Description
 `ls -Glp`     | An extension ls of `ls -l`. ``-G`` enables colorized output. Different colors for different types of files and directories. ``-p`` Write a slash (``/``) after the name of a directory.
 
 
-> > `ls`  
-> > List directory contents.
-
-> > `ls -a`  
-> > Include directory entries whose names begin with a dot (.).
-
-> > `ls -l`  
-* Shows total number of files in the directory and its sub-directories. 
-* List directory contents (files and sub-directories) in alpha-numeric order with a summary of the contents. 
-> > Example of `ls -l` (terminal output):
+> > *Example 1.*  `ls -l` (terminal output)
 ``` console 
 total 136
 -rw-r--r--   1 susmitadatta  staff  2738 Mar 10 14:55 00-fork_repo.md
@@ -119,46 +110,19 @@ drwxr-xr-x   3 susmitadatta  staff   102 Mar 10 14:19 editors
 >> * File/dir name
 
 
-> > `ls -lh`  
-Same as `ls -l` (-h used with the -l option) but shows unit suffixes: 
-Byte, Kilobyte, Megabyte,Gigabyte, Terabyte and Petabyte in order to reduce the number of digits to three or less using base 2 for sizes.
-
-> > `ls -lah`  
-Same as `ls -lh` but also includes directory entries whose names begin with a dot (.).
-
-> > `ls -t` 
-List dir contents sorted by time modified (most recently modified first) before sorting the operands by lexicographical order.
-
-> > `ls -Glp`
-An extension ls of `ls -l`. 
-``-G`` enables colorized output. Different colors for different types of files and directories. 
-``-p`` Write a slash (``/``) after the name of a directory.
-
-> > Example of `ls -Glp` (terminal output):
-```console
--rw-r--r--  1 susmitadatta  staff   648 Mar 10 14:19 football.csv
--rwxr-xr-x  1 susmitadatta  staff   940 Mar 10 14:19 markov.py
-drwxr-xr-x  6 susmitadatta  staff   204 Mar 10 14:19 pandas/
-```
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > `ls -lrt`
-List contents according to creation and modification date.
-
-> > `ls -F`
-List contents flagging files and directories (with a trailing `/`).
-
-> > `ls | less`
-List contents in a single column (in apha-numeric order) and displays contents one page at a time (the number of lines that fit the terminal window).
-
-> > `ls -R`
-List contents of the directory and the sub-directories.
-
-> > `ls -m` 
-List contents as a comma-separated list.
+> >
+   |Commands      | Description
+---|------------- | -------------
+1. | `ls -lrt`    | List contents according to creation and modification date.
+2. | `ls | less`  | List contents in a single column (in apha-numeric order) and displays contents one page at a time (the number of lines that fit the terminal window).
+3. | `ls -F`      | List contents flagging files and directories (with a trailing `/`).
+4. | `ls -R`      | List contents of the directory and the sub-directories.
+5. | `ls -m`      | List contents as a comma-separated list.
 
 
 
