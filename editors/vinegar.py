@@ -1,3 +1,5 @@
+# created using vim
+
 print("The painful thing about vim is that I need to change to different edit and save modes before I can do anything.")
 
 modes = {}
