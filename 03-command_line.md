@@ -94,7 +94,7 @@ Commands | Description
 `ls -Glp`     | An extension ls of `ls -l`. ``-G`` enables colorized output. Different colors for different types of files and directories. ``-p`` Write a slash (``/``) after the name of a directory.
 
 
-> > ** Example 1.**  `ls -l` (terminal output)
+> > **Example 1.**  `ls -l` (terminal output)
 ``` console 
 total 136
 -rw-r--r--   1 susmitadatta  staff  2738 Mar 10 14:55 00-fork_repo.md
