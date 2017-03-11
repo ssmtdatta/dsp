@@ -19,41 +19,41 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
->> 1. show current working directory path
+>> (1) show current working directory path
 ```console
 $ pwd
 ```
->> 2. creating a directory
+>> (2) creating a directory called **Project**
 ```console
-$ mkdir dir_name
+$ mkdir Project
 ```
->> 3. deleting an **empty** directory
+>> (3) deleting an **empty** directory called **empty**
 ```console
-$ rmdir dir_name
+$ rmdir empty
 ```
->> 4. deleting a **non-empty** directory
+>> (4) deleting a **non-empty** directory **nonempty**
 ```console
-$ rm -rf dir_name
+$ rm -rf nonempty
 ```
->> 5. creating a file using `touch` command
+>> (5) creating a file using `touch` command (name of the file: **pycode.py**)
 ```console
-$ touch file_name 
+$ touch pycode.py 
 ```
->> 6. deleting a file
+>> (6) deleting a file called **pycode.py**
 ```console
-$ rm file_name
+$ rm pycode.py
 ```
->> 7. renaming a file
+>> 7. renaming a file: **pycode.py** to **python_code.py** 
 ```console
-$ mv old_file_name new_file_name
+$ mv pycode.py python_code.py
 ```
 >> 8. listing hidden files
 ```console
 $ ls -a
 ```
->> 9. copying a file from one directory to another
+>> 9. copying a file (**pycode.py**) from one directory (**FromThisDir**) to another (**ToThisDir**)
 ```console
-$ cp dir_name/file_name x/.
+$ cp FromThisDir/pycode.py ToThisDir/.
 ```
 
 
