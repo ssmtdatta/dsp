@@ -82,11 +82,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-`ls` commands | Description
+>> Commands | Description
 ------------- | -------------
 `ls`          | List directory contents.
 `ls -a`       | List contents including entries with names beginning with a dot (.).
 `ls -l`       | Shows total number of files in the directory and its sub-directories. List files and sub-directories in alpha-numeric order with a summary of the contents. (See Example 1 below)
+`ls -lh`      | Same as `ls -l` (-h used with the -l option) but shows unit suffixes: Byte, Kilobyte, Megabyte,Gigabyte, Terabyte and Petabyte in order to reduce the number of digits to three or less using base 2 for sizes.
+`ls -lah`     | Same as `ls -lh` but also includes directory entries whose names begin with a dot (.).
+`ls -t`       | List dir contents sorted by time modified (most recently modified first) before sorting the operands by lexicographical order.
+`ls -Glp`     | An extension ls of `ls -l`. ``-G`` enables colorized output. Different colors for different types of files and directories. ``-p`` Write a slash (``/``) after the name of a directory.
 
 
 > > `ls`  
