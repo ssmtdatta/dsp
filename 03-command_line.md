@@ -63,8 +63,10 @@ $ which emacs
 ```console
 $ history
 ```
-
-
+>> (12) show help file or manual for a command
+```console
+$ man ls
+```
 
 
 ---
@@ -80,16 +82,16 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls` 
-List directory contents.
+> > `ls`  
+> > List directory contents.
 
 > > `ls -a`  
-Include directory entries whose names begin with a dot (.).
+> > Include directory entries whose names begin with a dot (.).
 
 > > `ls -l`  
 * Shows total number of files in the directory and its sub-directories. 
 * List directory contents (files and sub-directories) in alpha-numeric order with a summary of the contents. 
-> > Example terminal output of `ls -l`
+> > Example of `ls -l` (terminal output):
 ``` console 
 total 136
 -rw-r--r--   1 susmitadatta  staff  2738 Mar 10 14:55 00-fork_repo.md
@@ -117,8 +119,15 @@ List dir contents sorted by time modified (most recently modified first) before 
 
 > > `ls -Glp`
 An extension ls of `ls -l`. 
-**-G** enables colorized output. Different colors for different types of files and directories. 
-**-p** Write a slash (**/**) after the name of a directory.
+``-G`` enables colorized output. Different colors for different types of files and directories. 
+``-p`` Write a slash (``/``) after the name of a directory.
+
+> > Example of `ls -Glp` (terminal output):
+```console
+-rw-r--r--  1 susmitadatta  staff   648 Mar 10 14:19 football.csv
+-rwxr-xr-x  1 susmitadatta  staff   940 Mar 10 14:19 markov.py
+drwxr-xr-x  6 susmitadatta  staff   204 Mar 10 14:19 pandas/
+```
 
 ### Q3.  More List Files in Unix  
 
