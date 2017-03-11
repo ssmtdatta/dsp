@@ -82,7 +82,9 @@ Upload these 3 files to the [`editors`](editors/) folder.
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
 >> **Emacs.**  
-It's fast. Allows both terminal edits and edits on a separate window. Efficient for text data with features such as rectangular crops.
+>> It's fast. 
+>> Allows both terminal edits and edits on a separate graphical window.  
+>> Efficient for text data with features such as rectangular crops.
 
 --
 
@@ -91,17 +93,17 @@ It's fast. Allows both terminal edits and edits on a separate window. Efficient 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
 >> **Sublime.**  
-I use it regularly mainly because of its color coding schemes.   
+>> I use it regularly mainly because of its color coding schemes.   
 
-Few interestign features:
-* Auto-completion suggestions
-* Auto-indentation
-* Search and replace all occurrences at the same time
+>> Few interestign features:
+>> * Auto-completion suggestions
+>> * Auto-indentation
+>> * Search and replace all occurrences at the same time
 
-Keyboard shorcuts:
-* Indent/unindent 
-* Comment/uncomment 
-* Select lines/words
+>> Keyboard shorcuts:
+>> * Indent/unindent 
+>> * Comment/uncomment 
+>> * Select lines/words
 
 
  
