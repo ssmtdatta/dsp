@@ -130,7 +130,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > **xargs** is used to do or remove some operation on long list of file names. It can combine multiple unix commands.
+
+> > **Example:**
+> > Find all the markdown files in the current dir and pass them to the ls command to list them. 
+> > `find ./ -name "*.md" | xargs  ls'
+
 
  
 
