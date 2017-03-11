@@ -80,7 +80,31 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls` 
+List directory contents.
+> > `ls -a`  
+Include directory entries whose names begin with a dot (.).
+> > `ls -l`  
+* Shows total number of files in the directory and its sub-directories. 
+* List directory contents (files and sub-directories) in alpha-numeric order with a summary of the contents. 
+> > Example terminal output of `ls -l`
+``` console 
+-rw-r--r--   1 susmitadatta  staff  2738 Mar 10 14:55 00-fork_repo.md
+drwxr-xr-x   3 susmitadatta  staff   102 Mar 10 14:19 editors
+```
+
+* Columns 
+> > > > * Dir or file 
+> > > > * Number of files (in a dir)
+> > > > * read-write-execution permissions
+> > > > * owner's name
+> > > > * owner's designation
+> > > > * file/dir size in KB 
+> > > > * creation/modification date. 
+> > `ls -lh`  
+> > `ls -lah`  
+> > `ls -t`  
+> > `ls -Glp
 
 ---
 
