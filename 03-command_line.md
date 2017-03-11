@@ -19,17 +19,42 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
->> [1) show current working directory path]
+>> 1. show current working directory path
 ```console
 $ pwd
 ```
->> [2) creating a directory]
->> [3) deleting a directory
->> [4) creating a file using `touch` command
->> [5) deleting a file
->> [6) renaming a file
->> [7) listing hidden files
->> [8) copying a file from one directory to another
+>> 2. creating a directory
+```console
+$ mkdir dir_name
+```
+>> 3. deleting an **empty** directory
+```console
+$ rmdir dir_name
+```
+>> 4. deleting a **non-empty** directory
+```console
+$ rm -rf dir_name
+```
+>> 5. creating a file using `touch` command
+```console
+$ touch file_name 
+```
+>> 6. deleting a file
+```console
+$ rm file_name
+```
+>> 7. renaming a file
+```console
+$ mv old_file_name new_file_name
+```
+>> 8. listing hidden files
+```console
+$ ls -a
+```
+>> 9. copying a file from one directory to another
+```console
+$ cp dir_name/file_name x/.
+```
 
 
 
