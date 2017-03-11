@@ -134,7 +134,9 @@ What does `xargs` do? Give an example of how to use it.
 
 > > **Example:**
 
-> > `find ./ -name "*.md" | xargs  ls`
+> > ``` console 
+    $ find ./ -name "*.md" | xargs  ls
+    ```
 
 > > The `find` command finds all the markdown files in the current directory and subdirectories and pass them to the `ls` command to list them. 
 
