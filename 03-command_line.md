@@ -19,7 +19,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>> [1) show current working directory path
+>> ```console $ pwd ```
+>> [2) creating a directory
+>> [3) deleting a directory
+>> [4) creating a file using `touch` command
+>> [5) deleting a file
+>> [6) renaming a file
+>> [7) listing hidden files
+>> [8) copying a file from one directory to another
+
+
+
 
 ---
 
