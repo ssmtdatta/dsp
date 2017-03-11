@@ -89,18 +89,19 @@ Include directory entries whose names begin with a dot (.).
 * List directory contents (files and sub-directories) in alpha-numeric order with a summary of the contents. 
 > > Example terminal output of `ls -l`
 ``` console 
+total 136
 -rw-r--r--   1 susmitadatta  staff  2738 Mar 10 14:55 00-fork_repo.md
 drwxr-xr-x   3 susmitadatta  staff   102 Mar 10 14:19 editors
 ```
+>> Summary of the example above:
+>> * dir or file, read-write-execution permissions
+>> * Number of files (in a dir or the file iself)
+>> * Owner's name
+>> * Owner's designation
+>> * File/dir size in KB 
+>> * Creation/modification date. 
+>> * File/dir name
 
-* Columns 
-> > > > * Dir or file 
-> > > > * Number of files (in a dir)
-> > > > * read-write-execution permissions
-> > > > * owner's name
-> > > > * owner's designation
-> > > > * file/dir size in KB 
-> > > > * creation/modification date. 
 > > `ls -lh`  
 > > `ls -lah`  
 > > `ls -t`  
