@@ -1,5 +1,5 @@
 """
-Reataurents near me with the word 'egg' in their names
+Restaurants near me with the word 'egg' in their names
 """
 
 restaurants = ["The Eastman Egg Company",
