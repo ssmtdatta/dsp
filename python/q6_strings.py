@@ -18,6 +18,14 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
+
+    if count < 10:
+        string = 'Number of donuts: '+ str(count)
+    else:
+        string = 'Number of donuts: many'
+
+    return string
+    
     raise NotImplementedError
 
 
@@ -37,6 +45,12 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
+    if len(s) < 2:
+        return "''"
+    else:
+        ss = s[:2]+s[-2:]
+        return ss
+
     raise NotImplementedError
 
 
@@ -56,6 +70,14 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
+
+    s1, s2 = s[0], s[1:]
+     
+    s2 = s2.replace(s1, '*')
+    
+    return s1+s2
+
+
     raise NotImplementedError
 
 
@@ -74,6 +96,15 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
+    
+    a2 = a[:2]
+    b2 = b[:2]
+
+    a_swapped = a.replace(a2, b2)
+    b_swapped = b.replace(b2, a2)
+    
+    return a_swapped+' '+b_swapped
+
     raise NotImplementedError
 
 
@@ -91,6 +122,15 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
+
+    if len(s) >= 3:
+    	if s[-3:] == 'ing':
+    		return s+'ly'
+    	else:
+    		return s+'ing'
+    else:
+    	return s
+
     raise NotImplementedError
 
 
@@ -109,8 +149,26 @@ def not_bad(s):
     >>> not_bad('This tea is not hot')
     'This tea is not hot'
     >>> not_bad("It's bad yet not")
-    "It's bad yet not"
+    'It's bad yet not'
     """
+    str1 = 'not'
+    str2 = 'bad'
+
+    if str1 in s and str2 in s:
+    	idx_str1 = s.index(str1)
+    	idx_str2 = s.index(str2)
+
+    	if idx_str2 > idx_str1: 
+    		str_to_replace = s[idx_str1:idx_str2+len(str2)]
+    		s_new = s.replace(str_to_replace, 'good')
+    		return s_new
+    	else:
+    		return s
+    
+    else:
+    	return s
+    
+
     raise NotImplementedError
 
 
@@ -130,4 +188,28 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
+    def front_back_index(s):
+    	
+    	len_s = len(s)
+    	
+    	# if the length of the string is even
+    	if len_s%2 == 0:
+    		front_idx = int( len(s)/2 )
+    		back_idx = int( len(s)/2 )
+    	# is the length of the string is odd	
+    	else:
+    		front_idx = int( len(s)/2 ) + 1 
+    		back_idx = int( len(s)/2 ) 
+
+    	return front_idx, back_idx
+
+    a_front_idx, a_back_index = front_back_index(a)
+    b_front_idx, b_back_index = front_back_index(b)
+
+    new_str = a[:a_front_idx] + b[:b_front_idx] + a[-a_back_index:] + b[-b_back_index:]
+
+    return new_str
+
     raise NotImplementedError
+
+
