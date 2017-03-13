@@ -16,6 +16,7 @@ In format 3:
 month as locale’s abbreviated name.
 
 The start_date and stop_date strings are converted to date object.
+
 The the number of days between the dates is computed by takeing the difference 
 between two date objects.
 
@@ -49,7 +50,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 
 days_in_between = countDays(date_start, date_stop, date_format_1)
-print(days_in_between)
+print("There are "+str(days_in_between)+" days between "+str(date_start)+"and"+str(date_stop)+".")
  
 
 ####b)  
@@ -60,7 +61,7 @@ date_start = formatDate(date_start)
 date_stop = formatDate(date_stop)
 
 days_in_between = countDays(date_start, date_stop, date_format_1)
-print(days_in_between)
+print("There are "+str(days_in_between)+" days between "+str(date_start)+"and"+str(date_stop)+".")
 
 
 ####c)  
@@ -68,4 +69,4 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 
 days_in_between = countDays(date_start, date_stop, date_format_2)
-print(days_in_between)
+print("There are "+str(days_in_between)+" days between "+str(date_start)+"and"+str(date_stop)+".")
