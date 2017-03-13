@@ -18,26 +18,11 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 >> A Python **dictionary** is a paired data structure, where the pairs are referred to as *key-value* pairs. The keys can be thought of dictionary elements. Each key has a value of its own. 
 
-This is synonymous to a dictionary of words and their meanings or definitions. In a dictionary, there are words. Each word has a meaning or definition. In a python, a *key* is a word, and its definition a *value*. 
+>> This is synonymous to a dictionary of words and their meanings or definitions. In a dictionary, there are words. Each word has a meaning or definition. In a python, a *key* is a word, and its definition a *value*. 
 
-An element of a Python dictionary is accessed by the name of the key. When a key is called, the value associated with the key is returned.
+>> An element of a Python dictionary is accessed by the name of the key. When a key is called, the value associated with the key is returned.
 
-The elements of a list, dictionary of a tuple can be any Python data structure such as integer, float, string, list, tuple, dictionary, etc. The key of a dictionary can be any immutable literals such as integer, string or tuple.
-
-The following table shows a few basic comparisons between lists, tuples and dictionaries.
-
-
-
-              | Data Structure
-------------- | -------------
-List          | ``` Pythona_list = ['name', 'Pixie', 'age', 11]
---------------|---------------
-Tuple         | a_tuple = ('name', 'Pixie', 'age', 11)
---------------|---------------
-Dictionary    |D = {'name':'Pixie', 'age': 11}
---------------|----------------------
-
-
+>> The elements of a list, dictionary of a tuple can be any Python data structure such as integer, float, string, list, tuple, dictionary, etc. The key of a dictionary can be any immutable literals such as integer, string, tuple, etc.
 
 ---
 
@@ -49,9 +34,15 @@ How are Python lists and sets similar and different? Give examples of using both
 
 >> Example:
 
-* List: [1, 2,'list', 999, 'set', 'tuple', 0, 0, 'tuple']
+* `List' 
+```python
+[1, 2,'list', 999, 'set', 'tuple', 0, 0, 'tuple']
+```
 
-* Set: {0, 1, 2, 999, 'tuple', 'list', 'set'}
+* `Set` of the list above 
+```python
+{0, 1, 2, 999, 'tuple', 'list', 'set'}
+```
 
 >> The follwing code was used to create a list and a set from the list.
 
@@ -66,7 +57,7 @@ the_set = set(the_list)
 print(the_set)
 ```
 
-The performance between lists and dictionaries depends of the operation perfomed. For instance, sets are significantly faster when it comes to determining if an element is present in the set, but are slower than lists when it comes to iterating over their contents.
+>> The performance between lists and dictionaries depends of the operation perfomed. For instance, sets are significantly faster when it comes to determining if an element is present in the set, but are slower than lists when it comes to iterating over their contents.
 
 
 
