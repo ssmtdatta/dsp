@@ -22,7 +22,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 >> An element of a Python dictionary is accessed by the name of the key. When a key is called, the value associated with the key is returned.
 
->> The elements of a list, dictionary of a tuple can be any Python data structure such as integer, float, string, list, tuple, dictionary, etc. The key of a dictionary can be any immutable literals such as integer, string, tuple, etc.
+>> The elements of a list, a dictionary or a tuple can be any Python data structure such as integer, float, string, list, tuple, dictionary, etc. The key of a dictionary can be any immutable literals such as integer, string, tuple, etc.
 
 ---
 
