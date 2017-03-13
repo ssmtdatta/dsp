@@ -1,4 +1,4 @@
-# Choose and learn your editor(s)
+## Choose and learn your editor(s)
 
 
 Computing's interface is text. To work effectively, you need to be fluent with this interface.
