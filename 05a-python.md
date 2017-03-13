@@ -12,17 +12,17 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> A Python **list** is a sequence of literals written within a square bracket separated by comma. Element of a list can be accessed by their indices (the first list element has an index of zero, the second and index of 1, the third 2, and so on). Elements can be added to or removed from a list. List elements can be re-ordered (e.g. sort in ascending or descending order, or alphabetically). A list element can be changed to a different value without affecting the others. 
+>> A Python **list** is a sequence of literals written within a square bracket separated by comma. The elements of a list can be accessed by their indices (the first list element has an index of zero, the second an index of 1, the third 2, and so on). Elements can be added to or removed from a list. List elements can be re-ordered (e.g. sort in ascending or descending order, or alphabetically). A list element can be changed to a different value without affecting the other elements in the list. 
 
->> A Python **tuple** is a group of literals written within a parenthesis separated by comma. Tuples must preserve the order and value of the literals as they were created. One cannot change the values of tuple elements or re-order them, which means tuples are immutable. Like lists, tuple elements can be accessed by their index numbers. Two or more tuples can be joined to create a new tuple, but the order of tuples (as they are joined) is preserved. The new tuple is considered a single tuple. 
+>> A Python **tuple** is a group of literals written within a parenthesis separated by comma. Tuples must preserve the order and value of the literals as they were created. One cannot change the values of tuple elements or re-order them, which means tuples are immutable. Like lists, tuple elements can be accessed by their index numbers. Two or more tuples can be joined to create a new tuple, but the order of initial tuples (as they are joined) is preserved. The new tuple is considered a single tuple. 
 
->> A Python **dictionary** is a paired data structure, where the pairs are *key-value* pairs. The keys can be thought of elements of a list. Each key has a value. 
+>> A Python **dictionary** is a paired data structure, where the pairs are referred to as *key-value* pairs. The keys can be thought of dictionary elements. Each key has a value of its own. 
 
-This is synonymous to a dictionary of words and their meanings or definitions (hence the name dictionary). In a dictionary, there are words. Each word has a meaning or definition. In a python, a *key* is a word, and its definition a *value*. 
+This is synonymous to a dictionary of words and their meanings or definitions. In a dictionary, there are words. Each word has a meaning or definition. In a python, a *key* is a word, and its definition a *value*. 
 
-An element of a Python dictionary is accessed by the key. When a key is called, the value associated with the key is returned.
+An element of a Python dictionary is accessed by the name of the key. When a key is called, the value associated with the key is returned.
 
-The elements of a list, dictionary of a tuple can be any Python data structure such as integer, float, string, list, tuple, dictionary, etc.
+The elements of a list, dictionary of a tuple can be any Python data structure such as integer, float, string, list, tuple, dictionary, etc. The key of a dictionary can be any immutable literals such as integer, string or tuple.
 
 The following table shows a few basic comparisons between lists, tuples and dictionaries.
 
