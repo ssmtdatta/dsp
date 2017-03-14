@@ -34,12 +34,12 @@ How are Python lists and sets similar and different? Give examples of using both
 
 >> Example:
 
-* `List' 
+* **List** 
 ```python
 [1, 2,'list', 999, 'set', 'tuple', 0, 0, 'tuple']
 ```
 
-* `Set` of the list above 
+* **Set** (of the list above) 
 ```python
 {0, 1, 2, 999, 'tuple', 'list', 'set'}
 ```
@@ -67,9 +67,10 @@ print(the_set)
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> Python supports the creation of anonymous functions (i.e. functions without a particular name). The anonymous function is defined as 'lambda'. 
+>>  While functions in Python are typically defined using the `def` keyword, Python also allows us to create functions without particular names. These are called anonymous functions and are defined using the `lambda` keyword. 
 
-A regular function in Python (defined as `def function_name`) 
+>> `lambda` functions are particularly useful when we want to perform operations without explicitly defining a function or variables. 
+>> `lambda` functions are sometimes compact represeatations of a `def` function.    
 
 ---
 
@@ -77,7 +78,10 @@ A regular function in Python (defined as `def function_name`)
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions are a tool for transforming a list into another by performing some operation on the list elements. During this transformation, elements can be conditionally included in the new list and each element can be transformed as needed.
+
+>> **Examples of list comprehension, lambda functions and  map &amp; filter operations are given in this iPython [notebook]** (python/list_comprehension_lambda.ipynb)
+
 
 ---
 
