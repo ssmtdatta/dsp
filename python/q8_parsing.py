@@ -28,10 +28,9 @@ with open(PATH+FILE) as f:
     	key = row[0]
     	
     	results = row[1:]
-    	results = list(map(lambda x: int(x), results))
 
     	# compute difference in ‘for’ and ‘against’ goals
-    	goal_diff = abs(results[4]-results[5])
+    	goal_diff = abs(int(results[4])-int(results[5]))
 
     	# differences in goals are dictionary values
     	score_dict[key] = goal_diff
