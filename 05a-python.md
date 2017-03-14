@@ -80,7 +80,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >> List comprehensions are a tool for transforming a list into another by performing some operation on the list elements. During this transformation, elements can be conditionally included in the new list and each element can be transformed as needed.
 
->> **Examples of list comprehension, lambda functions and  map &amp; filter operations are given in this iPython [notebook]** (python/list_comprehension_lambda.ipynb)
+>> **Examples of list comprehension, lambda functions and  map &amp; filter operations are given in this [iPython notebook]** (python/list_comprehension_lambda.ipynb)
 
 
 ---
