@@ -23,6 +23,7 @@ def match_ends(words):
     #raise NotImplementedError
 
 
+
 def front_x(words):
     """
     Given a list of strings, return a list with the strings in sorted
@@ -39,7 +40,6 @@ def front_x(words):
     """
 
     x_words = list(filter(lambda s: s[0]=='x', words))
-    
     notx_words = list(filter(lambda s: s[0]!='x', words))
 
     x_words.sort()
@@ -48,6 +48,7 @@ def front_x(words):
     
     return x_words + notx_words
     #raise NotImplementedError
+
 
 
 def sort_last(tuples):
@@ -71,6 +72,7 @@ def sort_last(tuples):
     #raise NotImplementedError
 
 
+
 def remove_adjacent(nums):
     """
     Given a list of numbers, return a list where all adjacent equal
@@ -89,6 +91,7 @@ def remove_adjacent(nums):
     """
     rm = [n for i, n in enumerate(nums) if i==0 or n != nums[i-1]]
     return rm
+
 
 def linear_merge(list1, list2):
     """
@@ -109,38 +112,4 @@ def linear_merge(list1, list2):
     return sorted_list
 
     #raise NotImplementedError
-
-
-
-
-print("match_ends")
-print(match_ends(['aba', 'xyz', 'aa', 'x', 'bbb']))
-print(match_ends(['', 'x', 'xy', 'xyx', 'xx']))
-print(match_ends(['aaa', 'be', 'abc', 'hello']))
-print(" ")
-
-print("front_x")
-print(front_x(['bbb', 'ccc', 'axx', 'xzz', 'xaa']))
-print(front_x(['ccc', 'bbb', 'aaa', 'xcc', 'xaa']))
-print(front_x(['mix', 'xyz', 'apple', 'xanadu', 'aardvark']))
-
-
-print("sort_last")
-print(sort_last([(1, 3), (3, 2), (2, 1)]))
-print(sort_last([(2, 3), (1, 2), (3, 1)]))
-print(sort_last([(1, 7), (1, 3), (3, 4, 5), (2, 2)]))
-print(" ")
-
-
-print(remove_adjacent([1, 2, 2, 3]))
-print(remove_adjacent([2, 2, 3, 3, 3]))
-print(remove_adjacent([3, 2, 3, 3, 3]))
-print(remove_adjacent([]))
-print(" ")
     
-print("linear_merge")
-print(linear_merge(['aa', 'xx', 'zz'], ['bb', 'cc']))
-print(linear_merge(['aa', 'xx'], ['bb', 'cc', 'zz']))
-print(linear_merge(['aa', 'aa'], ['aa', 'bb', 'bb']))
-print(" ")
-
