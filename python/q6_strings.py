@@ -26,7 +26,7 @@ def donuts(count):
 
     return string
     
-    raise NotImplementedError
+    #raise NotImplementedError
 
 
 def both_ends(s):
@@ -51,7 +51,7 @@ def both_ends(s):
         ss = s[:2]+s[-2:]
         return ss
 
-    raise NotImplementedError
+    #raise NotImplementedError
 
 
 def fix_start(s):
@@ -76,9 +76,8 @@ def fix_start(s):
     s2 = s2.replace(s1, '*')
     
     return s1+s2
-
-
-    raise NotImplementedError
+    
+    #raise NotImplementedError
 
 
 def mix_up(a, b):
@@ -105,7 +104,7 @@ def mix_up(a, b):
     
     return a_swapped+' '+b_swapped
 
-    raise NotImplementedError
+    #raise NotImplementedError
 
 
 def verbing(s):
@@ -168,8 +167,7 @@ def not_bad(s):
     else:
     	return s
     
-
-    raise NotImplementedError
+    #raise NotImplementedError
 
 
 def front_back(a, b):
@@ -210,6 +208,6 @@ def front_back(a, b):
 
     return new_str
 
-    raise NotImplementedError
+    #raise NotImplementedError
 
 
