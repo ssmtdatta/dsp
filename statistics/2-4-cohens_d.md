@@ -9,5 +9,6 @@
 >> The first babies are on average lighter than the other babies. 
 
 >> 3. Cohen d: 0.089
+>>
 >> The effect size for the birth weight between the two groups is more significant than that of the pregnancy length (Cohen d for pregnancy length is 0.0288.)
 
