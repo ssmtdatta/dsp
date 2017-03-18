@@ -1,9 +1,9 @@
-# imports
-
 import csv
+
 
 input_filename = "faculty.csv"
 output_filename = "emails.csv"
+
 
 ff = open(output_filename, 'w')
 
@@ -14,7 +14,7 @@ with open(input_filename) as f:
     ff.write("email\n")
 
     for line in csv_file:
-    	*fields, email = line
+    	*_, email = line
     	ff.write(email)
     	ff.write("\n")
        
