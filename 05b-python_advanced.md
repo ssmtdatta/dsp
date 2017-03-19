@@ -40,7 +40,7 @@ Index | Degree   | Count
 Index | Title  | Count
 ------|------- | -------------
 1     | Associate Professor | 12
-2     | Assiatant Professor | 12
+2     | Assistant Professor | 12
 3     | Professor | 13
 
 #### Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
