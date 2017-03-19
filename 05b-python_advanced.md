@@ -36,9 +36,12 @@ Index | Degree   | Count
 #### Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
 >> 3 different titles.
->> Associate Professor: 12
->> Assiatant Professor: 12
->> Professor: 13
+>> 
+Index | Title  | Count
+------|------- | -------------
+1     | Associate Professor | 12
+2     | Assiatant Professor | 12
+3     | Professor | 13
 
 #### Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
 
