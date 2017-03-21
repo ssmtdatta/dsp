@@ -91,12 +91,10 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> In frequentist’s approach, the probability is the frequency that a random even will occur. It calculates the probability of an event in the long run, that is, if the experiment is repeated many times (theoretically, infinite times) under the same conditions to obtain the outcome. Here, the sampling distributions of fixed size are taken. Dependence of the result of an experiment on the number of times the experiment is repeated.
-
+>> In frequentist’s approach, the probability is the frequency that a random even will occur. It calculates the probability of an event in the long run, that is, if the experiment is repeated many times (theoretically, infinite times) under the same conditions to obtain the outcome. Here, the sampling distributions of fixed size are taken. Dependence of the result of an experiment on the number of times the experiment is repeated.  
 The frequentist approach assumes that there is a ‘true’ expectation and the measurements or observations are noisy instances of this truth. Frequentist statistics tests whether an event occurs or not under the assumption of the true expectation.
-In the Bayesian approach, probability is defined as the plausibility of an event occurring given what has been observed or measured (given the available knowledge, which may be incomplete). For a Bayesian, there is just data which can be used as evidence for particular outcomes. 
-
-Bayes theorem is built on top of conditional probability. Probability measures a “degree of belief or prior” for an event based on data. The probability of a new outcome is measured given that there is a prior probabilistic expectation.
+In the Bayesian approach, probability is defined as the plausibility of an event occurring given what has been observed or measured (given the available knowledge, which may be incomplete). For a Bayesian, there is just data which can be used as evidence for particular outcomes.   
+Bayes theorem is built on top of conditional probability. Probability measures a “degree of belief or prior” for an event based on data. The probability of a new outcome is measured given that there is a prior probabilistic expectation.  
 In this approach, all unknown quantities are treated probabilistically. A prior assumption or prior belief is imposed on an outcome based on the data and observation. As new observations are made, the prior is updated.
 
 ---
