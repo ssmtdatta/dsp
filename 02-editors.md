@@ -99,7 +99,7 @@ What graphical editor will you use? How did you make your decision? What are som
 >> **Sublime**  
 >> I use it regularly mainly because of its color coding schemes.   
 
->> Few interestign features:
+>> Few interesting features:
 >> * Auto-completion suggestions
 >> * Auto-indentation
 >> * Search and replace of all occurrences at the same time
@@ -108,6 +108,8 @@ What graphical editor will you use? How did you make your decision? What are som
 >> * Indent/unindent 
 >> * Comment/uncomment 
 >> * Select lines/words
+>> * find/replace
+>> * go up/down of the page
 
 
  
