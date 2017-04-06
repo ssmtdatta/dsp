@@ -5,3 +5,5 @@
 >> Biased mean number of children in households: 2.4
 
 >> The biased estimate overcounts the avarage number of children.
+
+>> Code for this exercise is in: [iPython notebook](stat_sol.ipynb)
