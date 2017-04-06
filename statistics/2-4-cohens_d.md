@@ -12,3 +12,5 @@
 >>
 >> The effect size for the birth weight between the two groups is more significant than that of the pregnancy length (Cohen d for pregnancy length is 0.0288.)
 
+>> Code for this exercise is in: [iPython notebook](statistics/stat_sol.ipynb)
+
