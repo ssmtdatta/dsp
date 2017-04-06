@@ -86,6 +86,8 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 >> The probability that Elvis was an identical twin is 45%.
 
+>> [Solution:](elvis.pdf)
+
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
